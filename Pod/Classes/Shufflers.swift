@@ -6,7 +6,7 @@
 import Foundation
 
 /// Shuffle elements in the given array so you get them randomly ordered
-class ArrayShuffler
+public class ArrayShuffler
 {
     // TODO http://stackoverflow.com/questions/24026510/how-do-i-shuffle-an-array-in-swift
     func shuffle(arrayToShuffle : Array<AnyObject>) -> Array<AnyObject>

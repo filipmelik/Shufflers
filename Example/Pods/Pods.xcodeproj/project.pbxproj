@@ -7,415 +7,341 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1109FEFA4AE057BDA0009DC1 /* Pods-Shufflers_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A80A05478C894C4AD3F7D2C /* Pods-Shufflers_Example-dummy.m */; };
-		169F5ACAA3E09759BBA07D1A /* Pods-Shufflers_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D06B00C071E28AAEB131FDDD /* Pods-Shufflers_Tests-dummy.m */; };
-		3F9718A87A76A13F47CCEEAC /* Pods-Shufflers_Tests-Shufflers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F60B0654FF083E1A8791FC1 /* Pods-Shufflers_Tests-Shufflers-dummy.m */; };
-		4A65AE92D16A646E2148BD9E /* Pods-Shufflers_Tests-Shufflers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3171539EFB3AE581B4AE12D /* Pods-Shufflers_Tests-Shufflers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69B5532B2D49C89005474DA6 /* Shufflers.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 43D3F360A2B79E641F844AB5 /* Shufflers.bundle */; };
-		7213991BA0B2C4C535A4337B /* Pods-Shufflers_Example-Shufflers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD1DDA0D26C528CAD457F3C /* Pods-Shufflers_Example-Shufflers-dummy.m */; };
-		72A608EA21FF32A4E4D5F4A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627BA893483E6D869F7FFAC4 /* Foundation.framework */; };
-		7F90A792B6D84A6419160CE2 /* Shufflers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C25C6B22663BF6A05B05129 /* Shufflers.swift */; };
-		ACCC86B1B232FECC346FE695 /* Shufflers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C25C6B22663BF6A05B05129 /* Shufflers.swift */; };
-		B8AADD3194412CD126B19DF8 /* Pods-Shufflers_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1DACDE7382CCA77ADD6DDF /* Pods-Shufflers_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3A8C91281E69D3B993318AC /* Shufflers.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 550C837D70C21C7BE8230BEA /* Shufflers.bundle */; };
-		D3B8F42EC229D01EB8C91F0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627BA893483E6D869F7FFAC4 /* Foundation.framework */; };
-		DC20FC0216DAE898BC349AC0 /* Pods-Shufflers_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C844615BFFA1D82836508C /* Pods-Shufflers_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE12198AFD7965724B8AF3A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627BA893483E6D869F7FFAC4 /* Foundation.framework */; };
-		F0514E9AEE8F375C876C8259 /* Pods-Shufflers_Example-Shufflers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC86C535F0E824C3E366F0B3 /* Pods-Shufflers_Example-Shufflers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC2734E03D6DA7168664465E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627BA893483E6D869F7FFAC4 /* Foundation.framework */; };
+		0506A5E6D63178E9C779E2F4 /* Pods-Shufflers_Example-Shufflers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 716DB593DB20CE01B1DDA919 /* Pods-Shufflers_Example-Shufflers-dummy.m */; };
+		3B1AD847128721B99AA46B0F /* Pods-Shufflers_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCBD3B6E3F54D244E7BB27F /* Pods-Shufflers_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47D62E85E8AF1C468706059A /* Pods-Shufflers_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E23404102EC3737E79CF96 /* Pods-Shufflers_Tests-dummy.m */; };
+		4FF11BC7C213AB5980692CF9 /* Shufflers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7EB16BFC927F81153BB262 /* Shufflers.swift */; };
+		6215B4381667FA33C81E79EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657C09DDF70EBA342975756 /* Foundation.framework */; };
+		800E880CCAEE62B3DD8CD1C9 /* Shufflers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7EB16BFC927F81153BB262 /* Shufflers.swift */; };
+		8D0CF3AF83A73B0852E98D92 /* Pods-Shufflers_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A143C1FC3095138D3057D65 /* Pods-Shufflers_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		957D04212B4FF11130907E4D /* Pods-Shufflers_Tests-Shufflers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 419CD60EF35C70E3BA64ED1D /* Pods-Shufflers_Tests-Shufflers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FBEA47E97C6043BC778459C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657C09DDF70EBA342975756 /* Foundation.framework */; };
+		A25AE9DDDA0685EE271D5F5F /* Pods-Shufflers_Example-Shufflers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB88F0DE7FD2EAE6E2F55D3 /* Pods-Shufflers_Example-Shufflers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACD448DE55EE51B32A4E6A35 /* Shufflers.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 758043DF0D668DDA44EFF4EB /* Shufflers.bundle */; };
+		AE07F471463F64DDF6BA1655 /* Pods-Shufflers_Tests-Shufflers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9ABCEE19B9BA719712C72D8 /* Pods-Shufflers_Tests-Shufflers-dummy.m */; };
+		B1087E3EA8B7FE39F097F1D1 /* Pods-Shufflers_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4BDEE8329FDECCB2234A8E /* Pods-Shufflers_Example-dummy.m */; };
+		C849E8E504E67036CA9B165F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657C09DDF70EBA342975756 /* Foundation.framework */; };
+		D54E42CF3B6BCC1A24CECE71 /* Shufflers.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0177EE2E6C6331BAA8EA081B /* Shufflers.bundle */; };
+		DD9FB6BA3B59DDF0341FD5A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657C09DDF70EBA342975756 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2848CFB2E9E71B9098C7D1E6 /* PBXContainerItemProxy */ = {
+		0C7E42838C0F589E5DC73B72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1216671A303506014DED1696 /* Project object */;
+			containerPortal = AC7969B3D525A6D6EB3E0EEA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DCEDDBDC7FDE01864F388FE3;
-			remoteInfo = "Pods-Shufflers_Example-Shufflers-Shufflers";
-		};
-		75C38D80CD274A862260F983 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1216671A303506014DED1696 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D161A7355ADF45A0FE5FE48;
-			remoteInfo = "Pods-Shufflers_Example-Shufflers";
-		};
-		AFA1E7E5D1C89CC1B47DB63D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1216671A303506014DED1696 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 901024602A00A41586E90B17;
+			remoteGlobalIDString = 4D9566831F72C45CE558BCE5;
 			remoteInfo = "Pods-Shufflers_Tests-Shufflers-Shufflers";
 		};
-		EE9C2D132B3765A9F00240FF /* PBXContainerItemProxy */ = {
+		4BBECD063184DEF8037CA215 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1216671A303506014DED1696 /* Project object */;
+			containerPortal = AC7969B3D525A6D6EB3E0EEA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8EBD218582347FF99FE7826D;
+			remoteGlobalIDString = 8C17C57524DF9A41C4E9AE3A;
+			remoteInfo = "Pods-Shufflers_Example-Shufflers";
+		};
+		4BF607D7FA284AE2E32594F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC7969B3D525A6D6EB3E0EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B214CBE65BBB15E5641A4CE9;
+			remoteInfo = "Pods-Shufflers_Example-Shufflers-Shufflers";
+		};
+		6E3D8DB38EE542374C1B6B35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC7969B3D525A6D6EB3E0EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6098B791F8111448AC37175D;
 			remoteInfo = "Pods-Shufflers_Tests-Shufflers";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		049479CA2249910B79D8B7C4 /* Pods-Shufflers_Example-Shufflers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shufflers_Example-Shufflers-prefix.pch"; sourceTree = "<group>"; };
-		04BF1FA23AF5E978A8865AC1 /* Pods-Shufflers_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shufflers_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0A80A05478C894C4AD3F7D2C /* Pods-Shufflers_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shufflers_Example-dummy.m"; sourceTree = "<group>"; };
-		0E7B364D039769CD78148D3A /* Pods-Shufflers_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shufflers_Tests-environment.h"; sourceTree = "<group>"; };
-		0FCA2A4BDC96697BD283F160 /* Pods-Shufflers_Tests-Shufflers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-Shufflers_Tests-Shufflers.modulemap"; path = "../Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers.modulemap"; sourceTree = "<group>"; };
-		12B664B1BF7D816EF6AE2699 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		15640C647FA3BD21B3F594D0 /* Pods-Shufflers_Example-Shufflers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shufflers_Example-Shufflers.xcconfig"; sourceTree = "<group>"; };
-		1C25C6B22663BF6A05B05129 /* Shufflers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Shufflers.swift; sourceTree = "<group>"; };
-		1DF7040E39BB1DD61DFB0807 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29A8F133A40A6FC0C8A2E824 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3525A35E05B2AD9817CCD090 /* Pods-Shufflers_Tests-Shufflers-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shufflers_Tests-Shufflers-Private.xcconfig"; path = "../Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers-Private.xcconfig"; sourceTree = "<group>"; };
-		3E8CA278D3D202DFFEF6EA4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-Shufflers_Tests-Shufflers/Info.plist"; sourceTree = "<group>"; };
-		43D3F360A2B79E641F844AB5 /* Shufflers.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shufflers.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F08D41DC070DF87284C9AA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53017CFCEA92F7EC13F85C88 /* Pods-Shufflers_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shufflers_Example.modulemap"; sourceTree = "<group>"; };
-		550C837D70C21C7BE8230BEA /* Shufflers.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shufflers.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A7F3245904CBD747E2788F6 /* Pods_Shufflers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shufflers_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C1DACDE7382CCA77ADD6DDF /* Pods-Shufflers_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shufflers_Example-umbrella.h"; sourceTree = "<group>"; };
-		627BA893483E6D869F7FFAC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66C844615BFFA1D82836508C /* Pods-Shufflers_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shufflers_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6DE6844727FD654A64D025B0 /* Pods_Shufflers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shufflers_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BD1DDA0D26C528CAD457F3C /* Pods-Shufflers_Example-Shufflers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shufflers_Example-Shufflers-dummy.m"; sourceTree = "<group>"; };
-		8E51917D1A9E0D3F4D818F5D /* Pods-Shufflers_Example-Shufflers-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shufflers_Example-Shufflers-Private.xcconfig"; sourceTree = "<group>"; };
-		93C010BB60127C9CEBE1630A /* Shufflers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shufflers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98D771BCC1C5220E81E83E5F /* Shufflers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shufflers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9951387953BCE091AE48430B /* Pods-Shufflers_Example-Shufflers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shufflers_Example-Shufflers.modulemap"; sourceTree = "<group>"; };
-		99EFAEA61EB9E6D683F278BA /* Pods-Shufflers_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shufflers_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9AEADDA461959932C7D34F32 /* Pods-Shufflers_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shufflers_Example-environment.h"; sourceTree = "<group>"; };
-		9F60B0654FF083E1A8791FC1 /* Pods-Shufflers_Tests-Shufflers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Shufflers_Tests-Shufflers-dummy.m"; path = "../Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers-dummy.m"; sourceTree = "<group>"; };
-		A62C0DAAFEC8D69C9BA14CEC /* Pods-Shufflers_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shufflers_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A92EA0919AA0FC0293DFB52C /* Pods-Shufflers_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shufflers_Tests.modulemap"; sourceTree = "<group>"; };
-		A94EB3C862962FC7521491CE /* Pods-Shufflers_Tests-Shufflers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Shufflers_Tests-Shufflers-prefix.pch"; path = "../Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers-prefix.pch"; sourceTree = "<group>"; };
-		AC86C535F0E824C3E366F0B3 /* Pods-Shufflers_Example-Shufflers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shufflers_Example-Shufflers-umbrella.h"; sourceTree = "<group>"; };
-		CD73437ADD1AC2AA0AD2B0F5 /* Pods-Shufflers_Tests-Shufflers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shufflers_Tests-Shufflers.xcconfig"; path = "../Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers.xcconfig"; sourceTree = "<group>"; };
-		D06B00C071E28AAEB131FDDD /* Pods-Shufflers_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shufflers_Tests-dummy.m"; sourceTree = "<group>"; };
-		D225FE1842F1E77261D8A393 /* Pods-Shufflers_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shufflers_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D610BC33022D1B5269A8A48A /* Pods-Shufflers_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shufflers_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D85F09F9D3F66582C5A30D9E /* Pods-Shufflers_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shufflers_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DD81467D15A2A437249BC9BB /* Pods-Shufflers_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shufflers_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DDA14FD0D0BB1DD1449F4AF7 /* Pods-Shufflers_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shufflers_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E3171539EFB3AE581B4AE12D /* Pods-Shufflers_Tests-Shufflers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Shufflers_Tests-Shufflers-umbrella.h"; path = "../Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers-umbrella.h"; sourceTree = "<group>"; };
-		E3ECF982915C502B6E36C339 /* Pods-Shufflers_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shufflers_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F1D9401C8DC016D19673115E /* Pods-Shufflers_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shufflers_Example-resources.sh"; sourceTree = "<group>"; };
-		F47AE618FD95F86A74312788 /* Pods-Shufflers_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shufflers_Tests-resources.sh"; sourceTree = "<group>"; };
-		FE697E6FC60AE035107553C7 /* Pods-Shufflers_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shufflers_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0177EE2E6C6331BAA8EA081B /* Shufflers.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shufflers.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		067D8859F134D28324F1AC81 /* Pods-Shufflers_Tests-Shufflers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-Shufflers_Tests-Shufflers.modulemap"; path = "../Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers.modulemap"; sourceTree = "<group>"; };
+		2A143C1FC3095138D3057D65 /* Pods-Shufflers_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shufflers_Tests-umbrella.h"; sourceTree = "<group>"; };
+		32DD7B2E557B8268DED0F811 /* Pods-Shufflers_Tests-Shufflers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shufflers_Tests-Shufflers.xcconfig"; path = "../Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers.xcconfig"; sourceTree = "<group>"; };
+		392301A3D0B0D70BBD534EE8 /* Pods-Shufflers_Example-Shufflers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shufflers_Example-Shufflers.xcconfig"; sourceTree = "<group>"; };
+		3C44FF21C1395FEB98DD2E7C /* Pods-Shufflers_Example-Shufflers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shufflers_Example-Shufflers.modulemap"; sourceTree = "<group>"; };
+		419CD60EF35C70E3BA64ED1D /* Pods-Shufflers_Tests-Shufflers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Shufflers_Tests-Shufflers-umbrella.h"; path = "../Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers-umbrella.h"; sourceTree = "<group>"; };
+		47B0083DBE3588A3FB67F854 /* Pods-Shufflers_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shufflers_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		497DC17763CD0A5FEEE432C1 /* Pods-Shufflers_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shufflers_Example.modulemap"; sourceTree = "<group>"; };
+		4B5488C6D22E2B6286028F4B /* Pods-Shufflers_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shufflers_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C1356CF15F833BB93423A77 /* Pods-Shufflers_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shufflers_Tests.modulemap"; sourceTree = "<group>"; };
+		4EB04DE9B46F5EC1B03E4D6C /* Pods-Shufflers_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shufflers_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		51EA46642E30BB00E8E116D8 /* Pods-Shufflers_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shufflers_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		541AEFA9E54FB85348223B3B /* Pods-Shufflers_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shufflers_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		57B40B11948C37F4E54663F6 /* Pods_Shufflers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shufflers_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE437954387E9DB1A5F2556 /* Pods_Shufflers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shufflers_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB88F0DE7FD2EAE6E2F55D3 /* Pods-Shufflers_Example-Shufflers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shufflers_Example-Shufflers-umbrella.h"; sourceTree = "<group>"; };
+		6C286AD339898BFBBA11852B /* Pods-Shufflers_Example-Shufflers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shufflers_Example-Shufflers-prefix.pch"; sourceTree = "<group>"; };
+		6CCBD3B6E3F54D244E7BB27F /* Pods-Shufflers_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shufflers_Example-umbrella.h"; sourceTree = "<group>"; };
+		716DB593DB20CE01B1DDA919 /* Pods-Shufflers_Example-Shufflers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shufflers_Example-Shufflers-dummy.m"; sourceTree = "<group>"; };
+		758043DF0D668DDA44EFF4EB /* Shufflers.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shufflers.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E23404102EC3737E79CF96 /* Pods-Shufflers_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shufflers_Tests-dummy.m"; sourceTree = "<group>"; };
+		7657C09DDF70EBA342975756 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8048D35943167E3E279AA990 /* Pods-Shufflers_Tests-Shufflers-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shufflers_Tests-Shufflers-Private.xcconfig"; path = "../Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers-Private.xcconfig"; sourceTree = "<group>"; };
+		80EBEA92C103ECCE0942EAD0 /* Pods-Shufflers_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shufflers_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		86414BAB9C6D0C26C28A69D9 /* Pods-Shufflers_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shufflers_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93DA51F1BC6046323B202645 /* Shufflers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shufflers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		977FB1857DAA16A4B1656AD7 /* Pods-Shufflers_Example-Shufflers-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shufflers_Example-Shufflers-Private.xcconfig"; sourceTree = "<group>"; };
+		A016EFEA6505868A3B23C957 /* Pods-Shufflers_Tests-Shufflers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Shufflers_Tests-Shufflers-prefix.pch"; path = "../Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers-prefix.pch"; sourceTree = "<group>"; };
+		A49AB7A2C6FAAA6D5A61A5BF /* Pods-Shufflers_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shufflers_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A67686AD485F1EE316289AFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6BEC056C9B488DF5857579F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B885FD4AD3D3222298A2B85E /* Pods-Shufflers_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shufflers_Tests-environment.h"; sourceTree = "<group>"; };
+		BE3B23352FA729894C7E5AAA /* Pods-Shufflers_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shufflers_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE4BDEE8329FDECCB2234A8E /* Pods-Shufflers_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shufflers_Example-dummy.m"; sourceTree = "<group>"; };
+		C11711CAB998E3EA8F0A0D6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19A55637D6F46E6CCD9D009 /* Pods-Shufflers_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shufflers_Example-resources.sh"; sourceTree = "<group>"; };
+		DA7EB16BFC927F81153BB262 /* Shufflers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Shufflers.swift; sourceTree = "<group>"; };
+		E601C4E6F974DF13B2FC64DC /* Pods-Shufflers_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shufflers_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E716609288F52768B8F6C64A /* Pods-Shufflers_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shufflers_Tests-resources.sh"; sourceTree = "<group>"; };
+		E82862B8E57BF75CCC2F0DE3 /* Pods-Shufflers_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shufflers_Example-environment.h"; sourceTree = "<group>"; };
+		E972956BA351EEE61A46A26A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-Shufflers_Tests-Shufflers/Info.plist"; sourceTree = "<group>"; };
+		ED62D2B044D4A8035CF98699 /* Shufflers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shufflers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F547FD96EFF86C252241AB15 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F9ABCEE19B9BA719712C72D8 /* Pods-Shufflers_Tests-Shufflers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Shufflers_Tests-Shufflers-dummy.m"; path = "../Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C7A043B6BDB104E2A760776 /* Frameworks */ = {
+		08E32E7BDE17B768606FA349 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		504179FB0687E0328A99C9EC /* Frameworks */ = {
+		1959DBC006F28C8BF45B0CC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC2734E03D6DA7168664465E /* Foundation.framework in Frameworks */,
+				9FBEA47E97C6043BC778459C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		913739BD9238AB914527572E /* Frameworks */ = {
+		6A3CA8793821F49734362E58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3B8F42EC229D01EB8C91F0D /* Foundation.framework in Frameworks */,
+				DD9FB6BA3B59DDF0341FD5A5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A406C88A09432022F5B10436 /* Frameworks */ = {
+		6EAAEC6C21BED5CE7DADD2AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6215B4381667FA33C81E79EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BAC71838162614035CB6DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEAA0DDEA166CF99A136762C /* Frameworks */ = {
+		B1C76879F9D261421C8613EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72A608EA21FF32A4E4D5F4A8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFC3E89BF1E8B4064F4E5C8E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE12198AFD7965724B8AF3A9 /* Foundation.framework in Frameworks */,
+				C849E8E504E67036CA9B165F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C2F46A644F8F95E0EE1884F /* Pod */ = {
+		1BD97B9C98DD2C66FDF2DB0D /* Pods-Shufflers_Example */ = {
 			isa = PBXGroup;
 			children = (
-				70AC086BB6EBEE88F210333C /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		2B8AC5BBDC3B3764EF7241F5 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				432201454738D0BD0BD49D9C /* Pods-Shufflers_Example */,
-				99C6AA4A66733C4AED681DB6 /* Pods-Shufflers_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		38E87B07B1483D0E9F0B8521 /* Shufflers */ = {
-			isa = PBXGroup;
-			children = (
-				1C2F46A644F8F95E0EE1884F /* Pod */,
-				70D640BF86A0A579FAD71518 /* Support Files */,
-			);
-			name = Shufflers;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		432201454738D0BD0BD49D9C /* Pods-Shufflers_Example */ = {
-			isa = PBXGroup;
-			children = (
-				29A8F133A40A6FC0C8A2E824 /* Info.plist */,
-				53017CFCEA92F7EC13F85C88 /* Pods-Shufflers_Example.modulemap */,
-				DDA14FD0D0BB1DD1449F4AF7 /* Pods-Shufflers_Example-acknowledgements.markdown */,
-				FE697E6FC60AE035107553C7 /* Pods-Shufflers_Example-acknowledgements.plist */,
-				0A80A05478C894C4AD3F7D2C /* Pods-Shufflers_Example-dummy.m */,
-				9AEADDA461959932C7D34F32 /* Pods-Shufflers_Example-environment.h */,
-				D225FE1842F1E77261D8A393 /* Pods-Shufflers_Example-frameworks.sh */,
-				F1D9401C8DC016D19673115E /* Pods-Shufflers_Example-resources.sh */,
-				5C1DACDE7382CCA77ADD6DDF /* Pods-Shufflers_Example-umbrella.h */,
-				E3ECF982915C502B6E36C339 /* Pods-Shufflers_Example.debug.xcconfig */,
-				04BF1FA23AF5E978A8865AC1 /* Pods-Shufflers_Example.release.xcconfig */,
+				A6BEC056C9B488DF5857579F /* Info.plist */,
+				497DC17763CD0A5FEEE432C1 /* Pods-Shufflers_Example.modulemap */,
+				47B0083DBE3588A3FB67F854 /* Pods-Shufflers_Example-acknowledgements.markdown */,
+				4B5488C6D22E2B6286028F4B /* Pods-Shufflers_Example-acknowledgements.plist */,
+				BE4BDEE8329FDECCB2234A8E /* Pods-Shufflers_Example-dummy.m */,
+				E82862B8E57BF75CCC2F0DE3 /* Pods-Shufflers_Example-environment.h */,
+				A49AB7A2C6FAAA6D5A61A5BF /* Pods-Shufflers_Example-frameworks.sh */,
+				D19A55637D6F46E6CCD9D009 /* Pods-Shufflers_Example-resources.sh */,
+				6CCBD3B6E3F54D244E7BB27F /* Pods-Shufflers_Example-umbrella.h */,
+				E601C4E6F974DF13B2FC64DC /* Pods-Shufflers_Example.debug.xcconfig */,
+				86414BAB9C6D0C26C28A69D9 /* Pods-Shufflers_Example.release.xcconfig */,
 			);
 			name = "Pods-Shufflers_Example";
 			path = "Target Support Files/Pods-Shufflers_Example";
 			sourceTree = "<group>";
 		};
-		4C52E7496C3CBECD70A456C0 /* iOS */ = {
+		4D7EBDEB513B575022514411 /* Shufflers */ = {
 			isa = PBXGroup;
 			children = (
-				627BA893483E6D869F7FFAC4 /* Foundation.framework */,
+				A7744DF4AE1412B2A55EEB14 /* Pod */,
+				DB71D81788E5DE43E784B723 /* Support Files */,
+			);
+			name = Shufflers;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		534BB8A6AD09067C745041F7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7657C09DDF70EBA342975756 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		70AC086BB6EBEE88F210333C /* Classes */ = {
+		93D1F41E4F6CD12EE7B7E080 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1C25C6B22663BF6A05B05129 /* Shufflers.swift */,
+				4D7EBDEB513B575022514411 /* Shufflers */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		95ABDB5B80688F5A87361999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BE437954387E9DB1A5F2556 /* Pods_Shufflers_Example.framework */,
+				57B40B11948C37F4E54663F6 /* Pods_Shufflers_Tests.framework */,
+				0177EE2E6C6331BAA8EA081B /* Shufflers.bundle */,
+				758043DF0D668DDA44EFF4EB /* Shufflers.bundle */,
+				93DA51F1BC6046323B202645 /* Shufflers.framework */,
+				ED62D2B044D4A8035CF98699 /* Shufflers.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		980E9B93784A107715DD04B6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA7EB16BFC927F81153BB262 /* Shufflers.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		70D640BF86A0A579FAD71518 /* Support Files */ = {
+		A7744DF4AE1412B2A55EEB14 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4F08D41DC070DF87284C9AA4 /* Info.plist */,
-				3E8CA278D3D202DFFEF6EA4F /* Info.plist */,
-				9951387953BCE091AE48430B /* Pods-Shufflers_Example-Shufflers.modulemap */,
-				15640C647FA3BD21B3F594D0 /* Pods-Shufflers_Example-Shufflers.xcconfig */,
-				8E51917D1A9E0D3F4D818F5D /* Pods-Shufflers_Example-Shufflers-Private.xcconfig */,
-				7BD1DDA0D26C528CAD457F3C /* Pods-Shufflers_Example-Shufflers-dummy.m */,
-				049479CA2249910B79D8B7C4 /* Pods-Shufflers_Example-Shufflers-prefix.pch */,
-				AC86C535F0E824C3E366F0B3 /* Pods-Shufflers_Example-Shufflers-umbrella.h */,
-				0FCA2A4BDC96697BD283F160 /* Pods-Shufflers_Tests-Shufflers.modulemap */,
-				CD73437ADD1AC2AA0AD2B0F5 /* Pods-Shufflers_Tests-Shufflers.xcconfig */,
-				3525A35E05B2AD9817CCD090 /* Pods-Shufflers_Tests-Shufflers-Private.xcconfig */,
-				9F60B0654FF083E1A8791FC1 /* Pods-Shufflers_Tests-Shufflers-dummy.m */,
-				A94EB3C862962FC7521491CE /* Pods-Shufflers_Tests-Shufflers-prefix.pch */,
-				E3171539EFB3AE581B4AE12D /* Pods-Shufflers_Tests-Shufflers-umbrella.h */,
+				980E9B93784A107715DD04B6 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		A8F49A3014A5F0F5656397F9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BD97B9C98DD2C66FDF2DB0D /* Pods-Shufflers_Example */,
+				F9E8D694CA1B88322B1CFFB8 /* Pods-Shufflers_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CB7DFF54DE1087389EECD7EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				534BB8A6AD09067C745041F7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB71D81788E5DE43E784B723 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A67686AD485F1EE316289AFE /* Info.plist */,
+				E972956BA351EEE61A46A26A /* Info.plist */,
+				3C44FF21C1395FEB98DD2E7C /* Pods-Shufflers_Example-Shufflers.modulemap */,
+				392301A3D0B0D70BBD534EE8 /* Pods-Shufflers_Example-Shufflers.xcconfig */,
+				977FB1857DAA16A4B1656AD7 /* Pods-Shufflers_Example-Shufflers-Private.xcconfig */,
+				716DB593DB20CE01B1DDA919 /* Pods-Shufflers_Example-Shufflers-dummy.m */,
+				6C286AD339898BFBBA11852B /* Pods-Shufflers_Example-Shufflers-prefix.pch */,
+				5EB88F0DE7FD2EAE6E2F55D3 /* Pods-Shufflers_Example-Shufflers-umbrella.h */,
+				067D8859F134D28324F1AC81 /* Pods-Shufflers_Tests-Shufflers.modulemap */,
+				32DD7B2E557B8268DED0F811 /* Pods-Shufflers_Tests-Shufflers.xcconfig */,
+				8048D35943167E3E279AA990 /* Pods-Shufflers_Tests-Shufflers-Private.xcconfig */,
+				F9ABCEE19B9BA719712C72D8 /* Pods-Shufflers_Tests-Shufflers-dummy.m */,
+				A016EFEA6505868A3B23C957 /* Pods-Shufflers_Tests-Shufflers-prefix.pch */,
+				419CD60EF35C70E3BA64ED1D /* Pods-Shufflers_Tests-Shufflers-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Pods-Shufflers_Example-Shufflers";
 			sourceTree = "<group>";
 		};
-		99C6AA4A66733C4AED681DB6 /* Pods-Shufflers_Tests */ = {
+		E5A543CD6D8543630C93113D = {
 			isa = PBXGroup;
 			children = (
-				1DF7040E39BB1DD61DFB0807 /* Info.plist */,
-				A92EA0919AA0FC0293DFB52C /* Pods-Shufflers_Tests.modulemap */,
-				A62C0DAAFEC8D69C9BA14CEC /* Pods-Shufflers_Tests-acknowledgements.markdown */,
-				D85F09F9D3F66582C5A30D9E /* Pods-Shufflers_Tests-acknowledgements.plist */,
-				D06B00C071E28AAEB131FDDD /* Pods-Shufflers_Tests-dummy.m */,
-				0E7B364D039769CD78148D3A /* Pods-Shufflers_Tests-environment.h */,
-				DD81467D15A2A437249BC9BB /* Pods-Shufflers_Tests-frameworks.sh */,
-				F47AE618FD95F86A74312788 /* Pods-Shufflers_Tests-resources.sh */,
-				66C844615BFFA1D82836508C /* Pods-Shufflers_Tests-umbrella.h */,
-				D610BC33022D1B5269A8A48A /* Pods-Shufflers_Tests.debug.xcconfig */,
-				99EFAEA61EB9E6D683F278BA /* Pods-Shufflers_Tests.release.xcconfig */,
+				F547FD96EFF86C252241AB15 /* Podfile */,
+				93D1F41E4F6CD12EE7B7E080 /* Development Pods */,
+				CB7DFF54DE1087389EECD7EE /* Frameworks */,
+				95ABDB5B80688F5A87361999 /* Products */,
+				A8F49A3014A5F0F5656397F9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F9E8D694CA1B88322B1CFFB8 /* Pods-Shufflers_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C11711CAB998E3EA8F0A0D6F /* Info.plist */,
+				4C1356CF15F833BB93423A77 /* Pods-Shufflers_Tests.modulemap */,
+				BE3B23352FA729894C7E5AAA /* Pods-Shufflers_Tests-acknowledgements.markdown */,
+				80EBEA92C103ECCE0942EAD0 /* Pods-Shufflers_Tests-acknowledgements.plist */,
+				75E23404102EC3737E79CF96 /* Pods-Shufflers_Tests-dummy.m */,
+				B885FD4AD3D3222298A2B85E /* Pods-Shufflers_Tests-environment.h */,
+				51EA46642E30BB00E8E116D8 /* Pods-Shufflers_Tests-frameworks.sh */,
+				E716609288F52768B8F6C64A /* Pods-Shufflers_Tests-resources.sh */,
+				2A143C1FC3095138D3057D65 /* Pods-Shufflers_Tests-umbrella.h */,
+				4EB04DE9B46F5EC1B03E4D6C /* Pods-Shufflers_Tests.debug.xcconfig */,
+				541AEFA9E54FB85348223B3B /* Pods-Shufflers_Tests.release.xcconfig */,
 			);
 			name = "Pods-Shufflers_Tests";
 			path = "Target Support Files/Pods-Shufflers_Tests";
 			sourceTree = "<group>";
 		};
-		C904EE16F14DC2861D56024E = {
-			isa = PBXGroup;
-			children = (
-				12B664B1BF7D816EF6AE2699 /* Podfile */,
-				E832B6FFB8AD51D429FF22F5 /* Development Pods */,
-				D610E8326EE9D275DD68FE6D /* Frameworks */,
-				FC43B999923D1209375975AA /* Products */,
-				2B8AC5BBDC3B3764EF7241F5 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		D610E8326EE9D275DD68FE6D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4C52E7496C3CBECD70A456C0 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E832B6FFB8AD51D429FF22F5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				38E87B07B1483D0E9F0B8521 /* Shufflers */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FC43B999923D1209375975AA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6DE6844727FD654A64D025B0 /* Pods_Shufflers_Example.framework */,
-				5A7F3245904CBD747E2788F6 /* Pods_Shufflers_Tests.framework */,
-				43D3F360A2B79E641F844AB5 /* Shufflers.bundle */,
-				550C837D70C21C7BE8230BEA /* Shufflers.bundle */,
-				98D771BCC1C5220E81E83E5F /* Shufflers.framework */,
-				93C010BB60127C9CEBE1630A /* Shufflers.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		08175378A63D01219E710BFB /* Headers */ = {
+		6054513DC2D1EA37B942031C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A65AE92D16A646E2148BD9E /* Pods-Shufflers_Tests-Shufflers-umbrella.h in Headers */,
+				3B1AD847128721B99AA46B0F /* Pods-Shufflers_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB05576FC0AB063D761D9CFB /* Headers */ = {
+		72BA9A952DB8306061524E8E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0514E9AEE8F375C876C8259 /* Pods-Shufflers_Example-Shufflers-umbrella.h in Headers */,
+				957D04212B4FF11130907E4D /* Pods-Shufflers_Tests-Shufflers-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA588B6ADA34D9048F227460 /* Headers */ = {
+		83BFA99A4AE300CF8D2153E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC20FC0216DAE898BC349AC0 /* Pods-Shufflers_Tests-umbrella.h in Headers */,
+				8D0CF3AF83A73B0852E98D92 /* Pods-Shufflers_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC34C1BD4B9DD0561AB733CE /* Headers */ = {
+		CAEECD305F90F7968BC13BD0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8AADD3194412CD126B19DF8 /* Pods-Shufflers_Example-umbrella.h in Headers */,
+				A25AE9DDDA0685EE271D5F5F /* Pods-Shufflers_Example-Shufflers-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D161A7355ADF45A0FE5FE48 /* Pods-Shufflers_Example-Shufflers */ = {
+		4D9566831F72C45CE558BCE5 /* Pods-Shufflers_Tests-Shufflers-Shufflers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2ED90E06744BA1958C51428F /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Example-Shufflers" */;
+			buildConfigurationList = 3B607F65ADA9F45B66835024 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Tests-Shufflers-Shufflers" */;
 			buildPhases = (
-				31C9AE7EECB62326A063DE39 /* Sources */,
-				504179FB0687E0328A99C9EC /* Frameworks */,
-				3A4194EABF12AD2F4A9ECD9F /* Resources */,
-				DB05576FC0AB063D761D9CFB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6C4B0D742A5EF712BBBC9FB6 /* PBXTargetDependency */,
-			);
-			name = "Pods-Shufflers_Example-Shufflers";
-			productName = "Pods-Shufflers_Example-Shufflers";
-			productReference = 93C010BB60127C9CEBE1630A /* Shufflers.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		2F6515DC12B0B748FE578DD2 /* Pods-Shufflers_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE5EFC1207D14BD84A3CB5E9 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Example" */;
-			buildPhases = (
-				B90AF20EA9B24B2188251E14 /* Sources */,
-				FFC3E89BF1E8B4064F4E5C8E /* Frameworks */,
-				FC34C1BD4B9DD0561AB733CE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3C2DF606AF59439EE216EB0E /* PBXTargetDependency */,
-			);
-			name = "Pods-Shufflers_Example";
-			productName = "Pods-Shufflers_Example";
-			productReference = 6DE6844727FD654A64D025B0 /* Pods_Shufflers_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		850F8D4FFA7F385D57E90EC3 /* Pods-Shufflers_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5DAAF45CBFEEC9F4D9DD3BD1 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Tests" */;
-			buildPhases = (
-				73C7A501AE6833C3AA1501E6 /* Sources */,
-				AEAA0DDEA166CF99A136762C /* Frameworks */,
-				FA588B6ADA34D9048F227460 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DE8E7345A682275DC7768864 /* PBXTargetDependency */,
-			);
-			name = "Pods-Shufflers_Tests";
-			productName = "Pods-Shufflers_Tests";
-			productReference = 5A7F3245904CBD747E2788F6 /* Pods_Shufflers_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8EBD218582347FF99FE7826D /* Pods-Shufflers_Tests-Shufflers */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9A58CFC023461273B0183662 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Tests-Shufflers" */;
-			buildPhases = (
-				313064D6863E76A1ED3A55BD /* Sources */,
-				913739BD9238AB914527572E /* Frameworks */,
-				BEE49D10C128DBF0B1C5938F /* Resources */,
-				08175378A63D01219E710BFB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78F4E9B341FD3215B97036B2 /* PBXTargetDependency */,
-			);
-			name = "Pods-Shufflers_Tests-Shufflers";
-			productName = "Pods-Shufflers_Tests-Shufflers";
-			productReference = 98D771BCC1C5220E81E83E5F /* Shufflers.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		901024602A00A41586E90B17 /* Pods-Shufflers_Tests-Shufflers-Shufflers */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 33BB5D3C1264B7CE972F900F /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Tests-Shufflers-Shufflers" */;
-			buildPhases = (
-				25777672DD489DD2B7D00E66 /* Sources */,
-				A406C88A09432022F5B10436 /* Frameworks */,
-				112B0F5F26DAE9CB6B197F0D /* Resources */,
+				9088A0542BE579C1C09C7819 /* Sources */,
+				82BAC71838162614035CB6DB /* Frameworks */,
+				307F33FB4198954920B57116 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -423,16 +349,54 @@
 			);
 			name = "Pods-Shufflers_Tests-Shufflers-Shufflers";
 			productName = "Pods-Shufflers_Tests-Shufflers-Shufflers";
-			productReference = 550C837D70C21C7BE8230BEA /* Shufflers.bundle */;
+			productReference = 758043DF0D668DDA44EFF4EB /* Shufflers.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		DCEDDBDC7FDE01864F388FE3 /* Pods-Shufflers_Example-Shufflers-Shufflers */ = {
+		6098B791F8111448AC37175D /* Pods-Shufflers_Tests-Shufflers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9BC115A11709BA63B7D4D60 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Example-Shufflers-Shufflers" */;
+			buildConfigurationList = D00C5BFC613B078E99721AB9 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Tests-Shufflers" */;
 			buildPhases = (
-				24239B6391F0F536D9488320 /* Sources */,
-				0C7A043B6BDB104E2A760776 /* Frameworks */,
-				45EDBDC1CBD8DA84C4DE98D2 /* Resources */,
+				0A926FE5A4A548FF9D310F46 /* Sources */,
+				6A3CA8793821F49734362E58 /* Frameworks */,
+				AC542C4084EC566362AC5096 /* Resources */,
+				72BA9A952DB8306061524E8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4666652264BB1AE2028814E /* PBXTargetDependency */,
+			);
+			name = "Pods-Shufflers_Tests-Shufflers";
+			productName = "Pods-Shufflers_Tests-Shufflers";
+			productReference = 93DA51F1BC6046323B202645 /* Shufflers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C17C57524DF9A41C4E9AE3A /* Pods-Shufflers_Example-Shufflers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4CAE32DE08766E24BCC6F1 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Example-Shufflers" */;
+			buildPhases = (
+				52E4CAB291A9865D42DA5EE1 /* Sources */,
+				1959DBC006F28C8BF45B0CC5 /* Frameworks */,
+				2445DDDA8171E39CBEF0F71C /* Resources */,
+				CAEECD305F90F7968BC13BD0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB2F43B7AF60803975EEE33B /* PBXTargetDependency */,
+			);
+			name = "Pods-Shufflers_Example-Shufflers";
+			productName = "Pods-Shufflers_Example-Shufflers";
+			productReference = ED62D2B044D4A8035CF98699 /* Shufflers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B214CBE65BBB15E5641A4CE9 /* Pods-Shufflers_Example-Shufflers-Shufflers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2668221DFFC7B619D0923CF /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Example-Shufflers-Shufflers" */;
+			buildPhases = (
+				A5AFACB6F1FE24C4281FA74B /* Sources */,
+				08E32E7BDE17B768606FA349 /* Frameworks */,
+				1BDC91941C9D8C5D072E3950 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -440,382 +404,188 @@
 			);
 			name = "Pods-Shufflers_Example-Shufflers-Shufflers";
 			productName = "Pods-Shufflers_Example-Shufflers-Shufflers";
-			productReference = 43D3F360A2B79E641F844AB5 /* Shufflers.bundle */;
+			productReference = 0177EE2E6C6331BAA8EA081B /* Shufflers.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		C3742C125FEF50389A908833 /* Pods-Shufflers_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D029D5CE496A3FCAB04DA06 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Example" */;
+			buildPhases = (
+				EDE602FE4418C926BBB340DF /* Sources */,
+				B1C76879F9D261421C8613EA /* Frameworks */,
+				6054513DC2D1EA37B942031C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD9F71BF11132DC44BFEE58E /* PBXTargetDependency */,
+			);
+			name = "Pods-Shufflers_Example";
+			productName = "Pods-Shufflers_Example";
+			productReference = 5BE437954387E9DB1A5F2556 /* Pods_Shufflers_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5482D5E75DE2B708B309BE5 /* Pods-Shufflers_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D56E571D302748A09FEF3B5 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Tests" */;
+			buildPhases = (
+				E386542BB3D8309748F13CE8 /* Sources */,
+				6EAAEC6C21BED5CE7DADD2AF /* Frameworks */,
+				83BFA99A4AE300CF8D2153E8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA3039AD5C988C39AF91FE2B /* PBXTargetDependency */,
+			);
+			name = "Pods-Shufflers_Tests";
+			productName = "Pods-Shufflers_Tests";
+			productReference = 57B40B11948C37F4E54663F6 /* Pods_Shufflers_Tests.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1216671A303506014DED1696 /* Project object */ = {
+		AC7969B3D525A6D6EB3E0EEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = ADE974548FE5AD4222DC154B /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 890403AE303D20A17AE302E4 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C904EE16F14DC2861D56024E;
-			productRefGroup = FC43B999923D1209375975AA /* Products */;
+			mainGroup = E5A543CD6D8543630C93113D;
+			productRefGroup = 95ABDB5B80688F5A87361999 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2F6515DC12B0B748FE578DD2 /* Pods-Shufflers_Example */,
-				0D161A7355ADF45A0FE5FE48 /* Pods-Shufflers_Example-Shufflers */,
-				DCEDDBDC7FDE01864F388FE3 /* Pods-Shufflers_Example-Shufflers-Shufflers */,
-				850F8D4FFA7F385D57E90EC3 /* Pods-Shufflers_Tests */,
-				8EBD218582347FF99FE7826D /* Pods-Shufflers_Tests-Shufflers */,
-				901024602A00A41586E90B17 /* Pods-Shufflers_Tests-Shufflers-Shufflers */,
+				C3742C125FEF50389A908833 /* Pods-Shufflers_Example */,
+				8C17C57524DF9A41C4E9AE3A /* Pods-Shufflers_Example-Shufflers */,
+				B214CBE65BBB15E5641A4CE9 /* Pods-Shufflers_Example-Shufflers-Shufflers */,
+				C5482D5E75DE2B708B309BE5 /* Pods-Shufflers_Tests */,
+				6098B791F8111448AC37175D /* Pods-Shufflers_Tests-Shufflers */,
+				4D9566831F72C45CE558BCE5 /* Pods-Shufflers_Tests-Shufflers-Shufflers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		112B0F5F26DAE9CB6B197F0D /* Resources */ = {
+		1BDC91941C9D8C5D072E3950 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A4194EABF12AD2F4A9ECD9F /* Resources */ = {
+		2445DDDA8171E39CBEF0F71C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69B5532B2D49C89005474DA6 /* Shufflers.bundle in Resources */,
+				D54E42CF3B6BCC1A24CECE71 /* Shufflers.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45EDBDC1CBD8DA84C4DE98D2 /* Resources */ = {
+		307F33FB4198954920B57116 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEE49D10C128DBF0B1C5938F /* Resources */ = {
+		AC542C4084EC566362AC5096 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3A8C91281E69D3B993318AC /* Shufflers.bundle in Resources */,
+				ACD448DE55EE51B32A4E6A35 /* Shufflers.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		24239B6391F0F536D9488320 /* Sources */ = {
+		0A926FE5A4A548FF9D310F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE07F471463F64DDF6BA1655 /* Pods-Shufflers_Tests-Shufflers-dummy.m in Sources */,
+				800E880CCAEE62B3DD8CD1C9 /* Shufflers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E4CAB291A9865D42DA5EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0506A5E6D63178E9C779E2F4 /* Pods-Shufflers_Example-Shufflers-dummy.m in Sources */,
+				4FF11BC7C213AB5980692CF9 /* Shufflers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9088A0542BE579C1C09C7819 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25777672DD489DD2B7D00E66 /* Sources */ = {
+		A5AFACB6F1FE24C4281FA74B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		313064D6863E76A1ED3A55BD /* Sources */ = {
+		E386542BB3D8309748F13CE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F9718A87A76A13F47CCEEAC /* Pods-Shufflers_Tests-Shufflers-dummy.m in Sources */,
-				7F90A792B6D84A6419160CE2 /* Shufflers.swift in Sources */,
+				47D62E85E8AF1C468706059A /* Pods-Shufflers_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		31C9AE7EECB62326A063DE39 /* Sources */ = {
+		EDE602FE4418C926BBB340DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7213991BA0B2C4C535A4337B /* Pods-Shufflers_Example-Shufflers-dummy.m in Sources */,
-				ACCC86B1B232FECC346FE695 /* Shufflers.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73C7A501AE6833C3AA1501E6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				169F5ACAA3E09759BBA07D1A /* Pods-Shufflers_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B90AF20EA9B24B2188251E14 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1109FEFA4AE057BDA0009DC1 /* Pods-Shufflers_Example-dummy.m in Sources */,
+				B1087E3EA8B7FE39F097F1D1 /* Pods-Shufflers_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3C2DF606AF59439EE216EB0E /* PBXTargetDependency */ = {
+		BD9F71BF11132DC44BFEE58E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Shufflers_Example-Shufflers";
-			target = 0D161A7355ADF45A0FE5FE48 /* Pods-Shufflers_Example-Shufflers */;
-			targetProxy = 75C38D80CD274A862260F983 /* PBXContainerItemProxy */;
+			target = 8C17C57524DF9A41C4E9AE3A /* Pods-Shufflers_Example-Shufflers */;
+			targetProxy = 4BBECD063184DEF8037CA215 /* PBXContainerItemProxy */;
 		};
-		6C4B0D742A5EF712BBBC9FB6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Shufflers_Example-Shufflers-Shufflers";
-			target = DCEDDBDC7FDE01864F388FE3 /* Pods-Shufflers_Example-Shufflers-Shufflers */;
-			targetProxy = 2848CFB2E9E71B9098C7D1E6 /* PBXContainerItemProxy */;
-		};
-		78F4E9B341FD3215B97036B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Shufflers_Tests-Shufflers-Shufflers";
-			target = 901024602A00A41586E90B17 /* Pods-Shufflers_Tests-Shufflers-Shufflers */;
-			targetProxy = AFA1E7E5D1C89CC1B47DB63D /* PBXContainerItemProxy */;
-		};
-		DE8E7345A682275DC7768864 /* PBXTargetDependency */ = {
+		EA3039AD5C988C39AF91FE2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Shufflers_Tests-Shufflers";
-			target = 8EBD218582347FF99FE7826D /* Pods-Shufflers_Tests-Shufflers */;
-			targetProxy = EE9C2D132B3765A9F00240FF /* PBXContainerItemProxy */;
+			target = 6098B791F8111448AC37175D /* Pods-Shufflers_Tests-Shufflers */;
+			targetProxy = 6E3D8DB38EE542374C1B6B35 /* PBXContainerItemProxy */;
+		};
+		EB2F43B7AF60803975EEE33B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Shufflers_Example-Shufflers-Shufflers";
+			target = B214CBE65BBB15E5641A4CE9 /* Pods-Shufflers_Example-Shufflers-Shufflers */;
+			targetProxy = 4BF607D7FA284AE2E32594F2 /* PBXContainerItemProxy */;
+		};
+		F4666652264BB1AE2028814E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Shufflers_Tests-Shufflers-Shufflers";
+			target = 4D9566831F72C45CE558BCE5 /* Pods-Shufflers_Tests-Shufflers-Shufflers */;
+			targetProxy = 0C7E42838C0F589E5DC73B72 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05D148E5C2E39C0669B4ED2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04BF1FA23AF5E978A8865AC1 /* Pods-Shufflers_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Shufflers_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Shufflers_Example/Pods-Shufflers_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Shufflers_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		13DADF134F7BD00E284FDAB0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E51917D1A9E0D3F4D818F5D /* Pods-Shufflers_Example-Shufflers-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Shufflers_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = Shufflers;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		1411EEF6E021B95D587EE518 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3525A35E05B2AD9817CCD090 /* Pods-Shufflers_Tests-Shufflers-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Shufflers_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = Shufflers;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		169616F7AD7C2C0B3468E7FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E51917D1A9E0D3F4D818F5D /* Pods-Shufflers_Example-Shufflers-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shufflers_Example-Shufflers/Pods-Shufflers_Example-Shufflers-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Shufflers_Example-Shufflers/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Shufflers_Example-Shufflers/Pods-Shufflers_Example-Shufflers.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Shufflers;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1E8D8688BDD6D36BA2737FBB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D610BC33022D1B5269A8A48A /* Pods-Shufflers_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Shufflers_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Shufflers_Tests/Pods-Shufflers_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Shufflers_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		34DE658809D6667BC220260A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E51917D1A9E0D3F4D818F5D /* Pods-Shufflers_Example-Shufflers-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Shufflers_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = Shufflers;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		391E70B1E07AF4D4B4847770 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3525A35E05B2AD9817CCD090 /* Pods-Shufflers_Tests-Shufflers-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Shufflers_Tests-Shufflers/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Shufflers;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		509A21C419DD27C6060D9D70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		5D6D16CD2CC61DCE53B5F5F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3ECF982915C502B6E36C339 /* Pods-Shufflers_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Shufflers_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Shufflers_Example/Pods-Shufflers_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Shufflers_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		76E16EE8A7B3A7EF574FB34E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3525A35E05B2AD9817CCD090 /* Pods-Shufflers_Tests-Shufflers-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Shufflers_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = Shufflers;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		8A9B5ACD99819B7D92562FA9 /* Debug */ = {
+		04956D54A5F648AD89ED530B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -854,9 +624,9 @@
 			};
 			name = Debug;
 		};
-		9594D037C1609619B64DA458 /* Release */ = {
+		1BFBBA2559FC812090AA985C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3525A35E05B2AD9817CCD090 /* Pods-Shufflers_Tests-Shufflers-Private.xcconfig */;
+			baseConfigurationReference = 4EB04DE9B46F5EC1B03E4D6C /* Pods-Shufflers_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -865,25 +635,28 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Shufflers_Tests-Shufflers/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shufflers_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Shufflers;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shufflers_Tests/Pods-Shufflers_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Shufflers_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		EDA95720B17BCA3BE0BECEA7 /* Release */ = {
+		43D5B9C3A8634A9687E2B41D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99EFAEA61EB9E6D683F278BA /* Pods-Shufflers_Tests.release.xcconfig */;
+			baseConfigurationReference = 541AEFA9E54FB85348223B3B /* Pods-Shufflers_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -910,9 +683,167 @@
 			};
 			name = Release;
 		};
-		EF86220D69EAD0530D50EB91 /* Debug */ = {
+		53927584854E7997B976D189 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E51917D1A9E0D3F4D818F5D /* Pods-Shufflers_Example-Shufflers-Private.xcconfig */;
+			baseConfigurationReference = 977FB1857DAA16A4B1656AD7 /* Pods-Shufflers_Example-Shufflers-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Shufflers_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Shufflers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		60802320E4011AA2B1DAB68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8048D35943167E3E279AA990 /* Pods-Shufflers_Tests-Shufflers-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shufflers_Tests-Shufflers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Shufflers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6814003E1CAE517788DA891F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977FB1857DAA16A4B1656AD7 /* Pods-Shufflers_Example-Shufflers-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Shufflers_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Shufflers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6840BB1827880022C4D96397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E601C4E6F974DF13B2FC64DC /* Pods-Shufflers_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shufflers_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shufflers_Example/Pods-Shufflers_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Shufflers_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7730D1958507921FBDDAD0CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B50F1915FC14B2D2E99D429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8048D35943167E3E279AA990 /* Pods-Shufflers_Tests-Shufflers-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Shufflers_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Shufflers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A07632E4B1CE0C3DA7EA6411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8048D35943167E3E279AA990 /* Pods-Shufflers_Tests-Shufflers-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shufflers_Tests-Shufflers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shufflers_Tests-Shufflers/Pods-Shufflers_Tests-Shufflers.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Shufflers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1B579A5372C600C700E8CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977FB1857DAA16A4B1656AD7 /* Pods-Shufflers_Example-Shufflers-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -938,73 +869,142 @@
 			};
 			name = Debug;
 		};
+		B31E496E27EB7D944AF851F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8048D35943167E3E279AA990 /* Pods-Shufflers_Tests-Shufflers-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Shufflers_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Shufflers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EDEBFEE6E1CDD40ABBF68666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977FB1857DAA16A4B1656AD7 /* Pods-Shufflers_Example-Shufflers-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shufflers_Example-Shufflers/Pods-Shufflers_Example-Shufflers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shufflers_Example-Shufflers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shufflers_Example-Shufflers/Pods-Shufflers_Example-Shufflers.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Shufflers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6926A371F70090B7F2593AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86414BAB9C6D0C26C28A69D9 /* Pods-Shufflers_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shufflers_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shufflers_Example/Pods-Shufflers_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Shufflers_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2ED90E06744BA1958C51428F /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Example-Shufflers" */ = {
+		3B607F65ADA9F45B66835024 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Tests-Shufflers-Shufflers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF86220D69EAD0530D50EB91 /* Debug */,
-				169616F7AD7C2C0B3468E7FF /* Release */,
+				B31E496E27EB7D944AF851F1 /* Debug */,
+				9B50F1915FC14B2D2E99D429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33BB5D3C1264B7CE972F900F /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Tests-Shufflers-Shufflers" */ = {
+		5A4CAE32DE08766E24BCC6F1 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Example-Shufflers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76E16EE8A7B3A7EF574FB34E /* Debug */,
-				1411EEF6E021B95D587EE518 /* Release */,
+				B1B579A5372C600C700E8CBD /* Debug */,
+				EDEBFEE6E1CDD40ABBF68666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DAAF45CBFEEC9F4D9DD3BD1 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Tests" */ = {
+		7D029D5CE496A3FCAB04DA06 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E8D8688BDD6D36BA2737FBB /* Debug */,
-				EDA95720B17BCA3BE0BECEA7 /* Release */,
+				6840BB1827880022C4D96397 /* Debug */,
+				F6926A371F70090B7F2593AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A58CFC023461273B0183662 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Tests-Shufflers" */ = {
+		7D56E571D302748A09FEF3B5 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				391E70B1E07AF4D4B4847770 /* Debug */,
-				9594D037C1609619B64DA458 /* Release */,
+				1BFBBA2559FC812090AA985C /* Debug */,
+				43D5B9C3A8634A9687E2B41D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADE974548FE5AD4222DC154B /* Build configuration list for PBXProject "Pods" */ = {
+		890403AE303D20A17AE302E4 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A9B5ACD99819B7D92562FA9 /* Debug */,
-				509A21C419DD27C6060D9D70 /* Release */,
+				04956D54A5F648AD89ED530B /* Debug */,
+				7730D1958507921FBDDAD0CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9BC115A11709BA63B7D4D60 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Example-Shufflers-Shufflers" */ = {
+		D00C5BFC613B078E99721AB9 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Tests-Shufflers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34DE658809D6667BC220260A /* Debug */,
-				13DADF134F7BD00E284FDAB0 /* Release */,
+				60802320E4011AA2B1DAB68A /* Debug */,
+				A07632E4B1CE0C3DA7EA6411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE5EFC1207D14BD84A3CB5E9 /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Example" */ = {
+		F2668221DFFC7B619D0923CF /* Build configuration list for PBXNativeTarget "Pods-Shufflers_Example-Shufflers-Shufflers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D6D16CD2CC61DCE53B5F5F0 /* Debug */,
-				05D148E5C2E39C0669B4ED2D /* Release */,
+				53927584854E7997B976D189 /* Debug */,
+				6814003E1CAE517788DA891F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1216671A303506014DED1696 /* Project object */;
+	rootObject = AC7969B3D525A6D6EB3E0EEA /* Project object */;
 }
