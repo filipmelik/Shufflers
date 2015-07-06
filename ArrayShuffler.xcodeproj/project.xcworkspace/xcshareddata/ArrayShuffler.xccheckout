@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EEFC0197-B9B8-4390-BEB6-755544F5A82D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>43B3B23B3FA01858F58DC806187B99DF78681FA2</key>
+		<string>https://github.com/filipmelik/ArrayShuffler.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ArrayShuffler.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>43B3B23B3FA01858F58DC806187B99DF78681FA2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/filipmelik/ArrayShuffler.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>43B3B23B3FA01858F58DC806187B99DF78681FA2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>43B3B23B3FA01858F58DC806187B99DF78681FA2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ArrayShuffler</string>
+		</dict>
+	</array>
+</dict>
+</plist>
