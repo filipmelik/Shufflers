@@ -1,29 +1,38 @@
-# Shufflers
+# ArrayShuffler
 
-[![CI Status](http://img.shields.io/travis/Filip Melik/Shufflers.svg?style=flat)](https://travis-ci.org/Filip Melik/Shufflers)
-[![Version](https://img.shields.io/cocoapods/v/Shufflers.svg?style=flat)](http://cocoapods.org/pods/Shufflers)
-[![License](https://img.shields.io/cocoapods/l/Shufflers.svg?style=flat)](http://cocoapods.org/pods/Shufflers)
-[![Platform](https://img.shields.io/cocoapods/p/Shufflers.svg?style=flat)](http://cocoapods.org/pods/Shufflers)
+A simple helper class that randomly shuffles the elements in the given array.
 
-## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
-Shufflers is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+To install it simply add the following line to your Podfile:
 
-```ruby
-pod "Shufflers"
+pod 'ArrayShuffler', git: 'https://github.com/filipmelik/ArrayShuffler.git'
+
+## Usage
+
+Shuffle the array
+
+```swift
+let inputArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+let arrayShuffler = ArrayShuffler();
+let shuffledArray = arrayShuffler.shuffle(inputArray) as! [Int];
+```
+
+Shuffle the array and limit the number of returned elements to certain number
+
+```swift
+let inputArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+let limit = 5;
+let arrayShuffler = ArrayShuffler();
+let shuffledArray = arrayShuffler.shuffleWithLimit(inputArray, limit : limit) as! [Int];
 ```
 
 ## Author
 
-Filip Melik, posta@filipmelik.cz
+Filip Melik
 
 ## License
 
-Shufflers is available under the MIT license. See the LICENSE file for more info.
+MIT
+

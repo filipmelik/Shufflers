@@ -10,19 +10,15 @@
 Pod::Spec.new do |s|
   s.name             = "Shufflers"
   s.version          = "0.1.0"
-  s.summary          = "A short description of Shufflers."
+  s.summary          = "Helpers that randomly shuffles the elements in the given array"
   s.description      = <<-DESC
-                       An optional longer description of Shufflers
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Helpers that randomly shuffles the elements in the given array,
+                        Give it an input and it will shuffle randomly the elements.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/Shufflers"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/filipmelik/Shufflers"
   s.license          = 'MIT'
   s.author           = { "Filip Melik" => "posta@filipmelik.cz" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/Shufflers.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/filipmelik/Shufflers.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true

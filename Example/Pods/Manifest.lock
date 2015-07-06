@@ -1,0 +1,14 @@
+PODS:
+  - Shufflers (0.1.0)
+
+DEPENDENCIES:
+  - Shufflers (from `../`)
+
+EXTERNAL SOURCES:
+  Shufflers:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Shufflers: 69e69c32693324685265439e72c18cd34bf82c47
+
+COCOAPODS: 0.37.2

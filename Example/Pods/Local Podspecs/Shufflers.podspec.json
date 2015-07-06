@@ -1,0 +1,25 @@
+{
+  "name": "Shufflers",
+  "version": "0.1.0",
+  "summary": "Helpers that randomly shuffles the elements in the given array",
+  "description": "                       Helpers that randomly shuffles the elements in the given array,\n                        Give it an input and it will shuffle randomly the elements.\n",
+  "homepage": "https://github.com/filipmelik/Shufflers",
+  "license": "MIT",
+  "authors": {
+    "Filip Melik": "posta@filipmelik.cz"
+  },
+  "source": {
+    "git": "https://github.com/filipmelik/Shufflers.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "Shufflers": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

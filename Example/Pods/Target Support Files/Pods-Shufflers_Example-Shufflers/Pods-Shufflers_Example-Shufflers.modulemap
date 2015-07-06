@@ -1,0 +1,6 @@
+framework module Shufflers {
+  umbrella header "Pods-Shufflers_Example-Shufflers-umbrella.h"
+
+  export *
+  module * { export * }
+}
