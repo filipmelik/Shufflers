@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # OS X
 .DS_Store
 
@@ -31,3 +32,7 @@ Carthage
 # `pod install` in .travis.yml
 #
 # Pods/
+=======
+.idea/
+.DS_Store
+>>>>>>> 08075b05aa9f712fa221fd84b5f57c40208893a6

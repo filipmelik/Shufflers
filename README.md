@@ -7,7 +7,11 @@ A simple helper class that randomly shuffles the elements in the given array.
 
 To install it simply add the following line to your Podfile:
 
+<<<<<<< HEAD
 pod 'ArrayShuffler', git: 'https://github.com/filipmelik/ArrayShuffler.git'
+=======
+    pod 'Shufflers', git: 'https://github.com/filipmelik/Shufflers.git'
+>>>>>>> 08075b05aa9f712fa221fd84b5f57c40208893a6
 
 ## Usage
 
