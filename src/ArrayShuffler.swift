@@ -19,7 +19,7 @@ public class ArrayShuffler
         var objectAtRandomIndex : AnyObject;
         var arrayElementsCount : Int = mutableInputArray.count;
 
-        for element in mutableInputArray {
+        for _ in mutableInputArray {
             randomIndex = self.getRandomArrayIndexInBounds(arrayElementsCount);
             objectAtRandomIndex = mutableInputArray[randomIndex];
             shuffledArray.append(objectAtRandomIndex);
@@ -49,7 +49,7 @@ public class ArrayShuffler
 
     private func assertGivenArrayIsNotEmpty(inputArray : Array<AnyObject>)
     {
-        assert(!isEmpty(inputArray), "Supplied array cannot be empty");
+        assert(!inputArray.isEmpty, "Supplied array cannot be empty");
     }
 }
 

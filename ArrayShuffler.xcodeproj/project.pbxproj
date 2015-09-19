@@ -173,6 +173,7 @@
 		26E14772847AD70CBA4EE754 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				ORGANIZATIONNAME = "filip melik";
 			};
 			buildConfigurationList = 26E14BD9A9CED9286236008F /* Build configuration list for PBXProject "ArrayShuffler" */;
@@ -405,6 +406,7 @@
 				26E148B9548147DBD5D36C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26E14BD9A9CED9286236008F /* Build configuration list for PBXProject "ArrayShuffler" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +424,7 @@
 				26E1430EB61EB581BEB686B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
